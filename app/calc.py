@@ -16,5 +16,6 @@ def mul(a: float, b: float) -> float:
 def div(a: float, b: float) -> float:
     """Chia a cho b."""
     if b == 0:
-        raise ValueError("Khong chia duoc")
+        raise ValueError("Loi: chia cho 0")
     return a / b
+
