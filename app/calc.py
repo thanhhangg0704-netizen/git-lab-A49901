@@ -11,3 +11,10 @@ def sub(a: float, b: float) -> float:
 def mul(a: float, b: float) -> float:
     """Nhan hai so a va b."""
     return a * b
+
+
+def div(a: float, b: float) -> float:
+    """Chia a cho b."""
+    if b == 0:
+        raise ValueError("Khong chia duoc")
+    return a / b
