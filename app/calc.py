@@ -23,3 +23,6 @@ def div(a: float, b: float) -> float:
 def pow(a: float, b: float) -> float:
     """Luy thua a mu b."""
     return a ** b
+
+# BUG: faulty configuration
+FAULTY_CONFIG = True
