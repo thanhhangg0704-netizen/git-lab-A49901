@@ -18,3 +18,8 @@ def div(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("Loi: chia cho 0 [ERR_ZERO_DIV]")
     return a / b
+
+
+def pow(a: float, b: float) -> float:
+    """Luy thua a mu b."""
+    return a ** b
